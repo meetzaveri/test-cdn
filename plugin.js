@@ -1,6 +1,6 @@
 let el = document.createElement('div');
 el.id = 'root';
-// el.textContent = 'JAAMSS';
+// el.textContent = 'Only for testing purpose';
 document.body.appendChild(el);
 
 const username = document.currentScript.getAttribute('data-username');
