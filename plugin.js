@@ -1,6 +1,6 @@
 let el = document.createElement('div');
 el.id = 'root';
-// el.textContent = 'This is for testing purpose';
+// el.textContent = 'JAAMSS';
 document.body.appendChild(el);
 
 const username = document.currentScript.getAttribute('data-username');
@@ -31,7 +31,7 @@ cssChunkHashStr.forEach((item, index) => {
 const jsChunkHashStr = [
   '3.aeeeff62',
   '2.8b2b516f',
-  '4.f57f4b92',
+  '4.6f032753',
   'main.09eed587',
 ];
 jsChunkHashStr.forEach((item, index) => {
@@ -43,6 +43,7 @@ jsChunkHashStr.forEach((item, index) => {
   // finally insert the element to the body element in order to load the script
   document.body.appendChild(jsElm);
 });
+
 !(function (e) {
   function t(t) {
     for (
@@ -147,7 +148,7 @@ jsChunkHashStr.forEach((item, index) => {
               'https://fervent-meitner-c9d403.netlify.app/static/js/' +
               ({}[e] || e) +
               '.' +
-              { 2: '8b2b516f', 4: 'f57f4b92' }[e] +
+              { 2: '8b2b516f', 4: '6f032753' }[e] +
               '.chunk.js'
             );
           })(e));
